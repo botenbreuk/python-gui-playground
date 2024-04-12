@@ -8,7 +8,7 @@ root.maxsize(500, 300)  # width x height
 root.config(bg="lightgrey")
 
 # Profile picture
-image = ImageTk.PhotoImage(Image.open("./profile.png").resize((100, 100)))
+image = ImageTk.PhotoImage(Image.open("./custom_interface/profile.png").resize((100, 100)))
 
 img = Label(root, image=image)
 img.grid(row=0, column=0, rowspan=6, padx=5, pady=5)
