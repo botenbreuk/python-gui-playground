@@ -1,4 +1,4 @@
-import pyotp, threading, tkinter as tk, os, base64
+import pyotp, tkinter as tk, base64
 from pyqrcode import QRCode
 from tkinter import messagebox
 from tkinter import filedialog
@@ -67,6 +67,7 @@ root = tk.Tk()
 # Setting the title and window size
 root.geometry('700x700')
 root.title('Project Gurukul - QR Code Generator')
+root.config(bg="purple")
 
 # Creating the entry to enter the text
 entry = tk.Entry(root, width=40)
